@@ -1,76 +1,112 @@
 
+/* The website is divided into 4 sections 2 white background sections and 2 sections having background images*/
+
+/* class of 2 white sections*/
 .top
 {
-    border: 1px solid red;
+    border: none;
     margin: -50px auto 50px;
- /*   width: 70%;*/
     position: relative;
     height: 100vh;
 }
 #state{
     padding: 150px;
 }
+
+/*adjustment of layout of white section on the top*/
 #white{
 
     position: relative;
     top: 292px;
     margin-left: 322px;
-
-
 }
+/* phone image position adjustments*/
 #phone{
 
     position: relative;
     margin-left: 860px;
     bottom: 445px;
-
-
 }
+/* hh1, hh2 & hh3 these are 3 ids for the 2nd section writing some notes in 3 columns
+this section is for positioning the notes*/
 #hh1{
 
     position: relative;
     top: 192px;
     left: 185px;
     width: 285px;
-
-
 }
 #hh2{
-
     position: relative;
-    
     top: 20px;
     left: 470px;
     width: 285px;
-
-
 }
 #hh3{
-
     position: relative;
     top: -152px;
     right: -755px;
     width: 285px;
-
-
 }
+/* this is to make these notes aligned column form*/
 #hh1, #hh2, #hh3{
     display: flex;
     flex-direction: column;
     text-align: center;
-
 }
+/* class for hh1,hh2 & hh3 to provide common width */
 .abc{
     width: 300px;
 }
+/*Section to provide background image to the 2nd and 4rth section*/
 .pic{
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     color: white;
-        border: 1px solid red;
+        border: none;
         margin: -50px auto 50px;
-     /*   width: 70%;*/
         position: relative;
         height: 100vh;
-    }
+}
+    /*Button settings*/
+button{
+    background-color: #33C3F0;
+    color: white;
+    border: none;
+    padding: 2px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 12px;
     
+}
+/* setting for 2 boxes having written "i'm image" in the footer */
+#foot1, #foot2{
+    
+    border: 1px dashed white;
+    color: white;
+    position: relative;
+    width: 230px;
+    padding: 80px;
+    text-align: center;
+    font-size: larger;
+}
+#foot1{
+    top: 48px;
+    left: 225px;
+
+}
+#foot2{
+    top: -136px;
+    left: 663px;
+}
+/*setting position for the very last notes*/
+#note{
+    position: relative;
+    bottom: 115px;
+    left: 4px;
+
+}
+/*Making font-family common in all sections*/
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
