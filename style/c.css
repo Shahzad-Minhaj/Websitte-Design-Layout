@@ -1,0 +1,76 @@
+
+.top
+{
+    border: 1px solid red;
+    margin: -50px auto 50px;
+ /*   width: 70%;*/
+    position: relative;
+    height: 100vh;
+}
+#state{
+    padding: 150px;
+}
+#white{
+
+    position: relative;
+    top: 292px;
+    margin-left: 322px;
+
+
+}
+#phone{
+
+    position: relative;
+    margin-left: 860px;
+    bottom: 445px;
+
+
+}
+#hh1{
+
+    position: relative;
+    top: 192px;
+    left: 185px;
+    width: 285px;
+
+
+}
+#hh2{
+
+    position: relative;
+    
+    top: 20px;
+    left: 470px;
+    width: 285px;
+
+
+}
+#hh3{
+
+    position: relative;
+    top: -152px;
+    right: -755px;
+    width: 285px;
+
+
+}
+#hh1, #hh2, #hh3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.abc{
+    width: 300px;
+}
+.pic{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    color: white;
+        border: 1px solid red;
+        margin: -50px auto 50px;
+     /*   width: 70%;*/
+        position: relative;
+        height: 100vh;
+    }
+    
